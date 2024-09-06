@@ -9,7 +9,10 @@
     "name":"Player",
     "path":"folders/Objects/Charachters/Player.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_character",
+    "path":"objects/obj_character/obj_character.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Player_idle",
+    "path":"sprites/Player_idle/Player_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
