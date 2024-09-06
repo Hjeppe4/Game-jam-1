@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7EC3518E
+/// @DnDHash : 6FB2DCD9
 /// @DnDInput : 2
 /// @DnDArgument : "var" "move_count"
 /// @DnDArgument : "value" "abs(vel_x)"
@@ -11,12 +11,12 @@ var move_amount = sign(vel_x);
 
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
-/// @DnDHash : 462A9751
+/// @DnDHash : 4136A684
 /// @DnDArgument : "times" "move_count"
 repeat(move_count){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1
-	/// @DnDHash : 458FBEB6
-	/// @DnDParent : 462A9751
+	/// @DnDHash : 0850BF08
+	/// @DnDParent : 4136A684
 	/// @DnDArgument : "value" "move_amount"
 	/// @DnDArgument : "value_relative" "1"
 	x += move_amount;}
